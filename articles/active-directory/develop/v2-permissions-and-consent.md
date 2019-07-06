@@ -54,7 +54,7 @@ In OAuth 2.0, these types of permissions are called *scopes*. They also often re
 
 * Read a user's calendar by using `Calendars.Read`
 * Write to a user's calendar by using `Calendars.ReadWrite`
-* Send mail as a user using by `Mail.Send`
+* Send mail as a user by using `Mail.Send`
 
 An app most commonly requests these permissions by specifying the scopes in requests to the Microsoft identity platform authorize endpoint. However, certain high privilege permissions can only be granted through administrator consent and requested/granted using the [administrator consent endpoint](v2-permissions-and-consent.md#admin-restricted-permissions). Read on to learn more.
 
